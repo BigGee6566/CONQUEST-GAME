@@ -1,0 +1,29 @@
+# Keeps the repository to source code only. Backend/ and Frontend/ have their own rules too.
+
+# Secrets: set these in Vercel instead
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+.expo/
+.vercel/
+
+# Local tooling
+.claude/
+*.log
+
+# Leftover Expo temp copy of app.json
+Frontend/app.json.*
+
+game.mdnode_modules/
+.env
+.expo/
+dist/
+android/
+ios/
+*.log
+.claude/
+app.json.*

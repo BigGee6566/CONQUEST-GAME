@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "CONQUEST",
+    "slug": "conquest",
+    "scheme": "conquest",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0A0F1C",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0F1C",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.biggee04.conquest"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single",
+      "name": "CONQUEST - Geopolitics War Game",
+      "shortName": "CONQUEST",
+      "themeColor": "#0A0F1C",
+      "backgroundColor": "#0A0F1C"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "backgroundColor": "#070B16"
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}

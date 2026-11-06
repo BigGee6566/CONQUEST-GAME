@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE7A3"/><stop offset=".5" stop-color="#F5B83D"/><stop offset="1" stop-color="#B4711A"/></linearGradient>
+  <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1D3161"/><stop offset="1" stop-color="#060A15"/></linearGradient>
+  <radialGradient id="globe" cx=".36" cy=".3" r=".85"><stop offset="0" stop-color="#3A6FC4"/><stop offset=".55" stop-color="#173163"/><stop offset="1" stop-color="#0A1533"/></radialGradient>
+  <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F4F7FC"/><stop offset=".5" stop-color="#C9D3E3"/><stop offset="1" stop-color="#7D8BA6"/></linearGradient>
+  <linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF6B5B"/><stop offset="1" stop-color="#B91C1C"/></linearGradient>
+  <radialGradient id="glow" cx=".5" cy=".45" r=".5"><stop offset="0" stop-color="#F5B83D" stop-opacity=".35"/><stop offset="1" stop-color="#F5B83D" stop-opacity="0"/></radialGradient>
+  <radialGradient id="bg" cx=".5" cy=".38" r=".75"><stop offset="0" stop-color="#1B2C55"/><stop offset=".6" stop-color="#0B1226"/><stop offset="1" stop-color="#05080F"/></radialGradient>
+  <clipPath id="globeClip"><circle cx="256" cy="246" r="84"/></clipPath>
+</defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+
+<g transform="translate(97.27999999999997 107) scale(1.62)">
+  
+  <g transform="translate(256 262) rotate(-42)">
+    <path d="M-12 70 L-12 -200 L0 -246 L12 -200 L12 70 Z" fill="url(#steel)" stroke="#140C02" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M0 -228 L0 64" stroke="#1E293B" stroke-opacity=".35" stroke-width="3"/>
+    <rect x="-54" y="64" width="108" height="20" rx="10" fill="url(#gold)" stroke="#140C02" stroke-width="4"/>
+    <rect x="-10" y="84" width="20" height="60" rx="7" fill="#5A3818" stroke="#140C02" stroke-width="4"/>
+    <circle cx="0" cy="154" r="16" fill="url(#gold)" stroke="#140C02" stroke-width="4"/>
+  </g>
+  
+  <g transform="translate(256 262) rotate(42)">
+    <path d="M-12 70 L-12 -200 L0 -246 L12 -200 L12 70 Z" fill="url(#steel)" stroke="#140C02" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M0 -228 L0 64" stroke="#1E293B" stroke-opacity=".35" stroke-width="3"/>
+    <rect x="-54" y="64" width="108" height="20" rx="10" fill="url(#gold)" stroke="#140C02" stroke-width="4"/>
+    <rect x="-10" y="84" width="20" height="60" rx="7" fill="#5A3818" stroke="#140C02" stroke-width="4"/>
+    <circle cx="0" cy="154" r="16" fill="url(#gold)" stroke="#140C02" stroke-width="4"/>
+  </g>
+  <path d="M256 64 L404 114 C404 262 354 364 256 436 C158 364 108 262 108 114 Z" fill="url(#shield)" stroke="url(#gold)" stroke-width="14" stroke-linejoin="round"/>
+  
+  <path d="M256 92 L380 134 C380 258 338 344 256 406 C174 344 132 258 132 134 Z" fill="none" stroke="url(#gold)" stroke-width="3" stroke-opacity=".5"/>
+  <path d="M256 78 L392 124 C392 150 390 176 385 200 C330 160 260 140 120 150 C120 140 120 130 120 124 Z" fill="#FFFFFF" fill-opacity=".05"/>
+  <circle cx="256" cy="246" r="84" fill="url(#globe)"/>
+  <g clip-path="url(#globeClip)">
+    <g fill="#2FA36B" fill-opacity=".75">
+      <path d="M200 205 C215 185 245 190 248 210 C252 228 232 240 222 256 C214 268 196 262 192 246 C188 232 190 218 200 205 Z"/>
+      <path d="M270 268 C288 258 312 266 314 284 C316 302 298 318 282 312 C268 306 262 284 270 268 Z"/>
+      <path d="M282 196 C298 188 318 196 322 212 C324 224 308 228 296 222 C286 218 276 206 282 196 Z"/>
+    </g>
+    <g stroke="#FFD978" stroke-width="2.5" fill="none" stroke-opacity=".65">
+      <ellipse cx="256" cy="246" rx="30" ry="84"/>
+      <ellipse cx="256" cy="246" rx="62" ry="84"/>
+      <line x1="256" y1="160" x2="256" y2="332"/>
+      <line x1="170" y1="246" x2="342" y2="246"/>
+      <ellipse cx="256" cy="202" rx="70" ry="11"/>
+      <ellipse cx="256" cy="290" rx="70" ry="11"/>
+    </g>
+  </g>
+  <circle cx="256" cy="246" r="84" fill="none" stroke="url(#gold)" stroke-width="6"/>
+  
+  <rect x="259" y="98" width="7" height="70" rx="3.5" fill="url(#gold)" stroke="#140C02" stroke-width="2"/>
+  <circle cx="262.5" cy="96" r="7" fill="url(#gold)" stroke="#140C02" stroke-width="2"/>
+  <path d="M266 102 C288 94 302 112 330 104 L330 138 C302 146 288 128 266 136 Z" fill="url(#red)" stroke="#140C02" stroke-width="3" stroke-linejoin="round"/>
+  <g fill="url(#gold)" stroke="#140C02" stroke-width="1.5"><polygon points="335.7,302.8 338.1,309.5 345.2,309.8 339.7,314.1 341.5,320.9 335.7,317.0 329.8,320.9 331.7,314.1 326.2,309.8 333.2,309.5"/><polygon points="321.3,316.9 323.8,323.6 330.8,323.9 325.3,328.2 327.2,335.0 321.3,331.1 315.4,335.0 317.3,328.2 311.8,323.9 318.8,323.6"/><polygon points="304.5,328.0 306.9,334.6 314.0,334.9 308.5,339.3 310.3,346.1 304.5,342.2 298.6,346.1 300.5,339.3 295.0,334.9 302.0,334.6"/><polygon points="285.8,335.6 288.3,342.2 295.3,342.5 289.8,346.9 291.7,353.7 285.8,349.8 279.9,353.7 281.8,346.9 276.3,342.5 283.4,342.2"/><polygon points="266.1,339.5 268.5,346.1 275.6,346.4 270.1,350.8 271.9,357.6 266.1,353.7 260.2,357.6 262.1,350.8 256.6,346.4 263.6,346.1"/><polygon points="245.9,339.5 248.4,346.1 255.4,346.4 249.9,350.8 251.8,357.6 245.9,353.7 240.1,357.6 241.9,350.8 236.4,346.4 243.5,346.1"/><polygon points="226.2,335.6 228.6,342.2 235.7,342.5 230.2,346.9 232.1,353.7 226.2,349.8 220.3,353.7 222.2,346.9 216.7,342.5 223.7,342.2"/><polygon points="207.5,328.0 210.0,334.6 217.0,334.9 211.5,339.3 213.4,346.1 207.5,342.2 201.7,346.1 203.5,339.3 198.0,334.9 205.1,334.6"/><polygon points="190.7,316.9 193.2,323.6 200.2,323.9 194.7,328.2 196.6,335.0 190.7,331.1 184.8,335.0 186.7,328.2 181.2,323.9 188.2,323.6"/><polygon points="176.3,302.8 178.8,309.5 185.8,309.8 180.3,314.1 182.2,320.9 176.3,317.0 170.5,320.9 172.3,314.1 166.8,309.8 173.9,309.5"/></g></g>
+</svg>
